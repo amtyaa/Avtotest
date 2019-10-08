@@ -1,0 +1,198 @@
+{
+  "id": "28e7f0e4-0269-4113-b23c-1f816f31109e",
+  "version": "2.0",
+  "name": "Test stoloto",
+  "url": "https://www.stoloto.ru",
+  "tests": [{
+    "id": "257b9016-9e91-41be-a65b-e28c3a075129",
+    "name": "В корзину",
+    "commands": [{
+      "id": "e9ee403e-f77d-4bad-aa82-b1d461d4f304",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25d2d01c-728e-4b57-b320-69f5a24d43b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4afeb7-d54f-44ef-a4b6-42fd6ab7695f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.links > .pseudo",
+      "targets": [
+        ["css=.links > .pseudo", "css:finder"],
+        ["xpath=//div[@id='layout']/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d429b5-fe88-4c29-9453-74cc2a80cede",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth_login",
+      "targets": [
+        ["id=auth_login", "id"],
+        ["name=login", "name"],
+        ["css=#auth_login", "css:finder"],
+        ["xpath=//input[@id='auth_login']", "xpath:attributes"],
+        ["xpath=//div[@id='layout']/div/div/div[3]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccdbe06f-9396-4085-97d0-7f0ea3185e3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=auth_login",
+      "targets": [
+        ["id=auth_login", "id"],
+        ["name=login", "name"],
+        ["css=#auth_login", "css:finder"],
+        ["xpath=//input[@id='auth_login']", "xpath:attributes"],
+        ["xpath=//div[@id='layout']/div/div/div[3]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "89154482623"
+    }, {
+      "id": "da930c97-0622-40b1-b056-d5ea8ed514d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=auth_password",
+      "targets": [
+        ["id=auth_password", "id"],
+        ["name=password", "name"],
+        ["css=#auth_password", "css:finder"],
+        ["xpath=//input[@id='auth_password']", "xpath:attributes"],
+        ["xpath=//div[@id='layout']/div/div/div[3]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e261f93-5920-4172-b5f4-8a64fc1acd13",
+      "comment": "",
+      "command": "type",
+      "target": "id=auth_password",
+      "targets": [
+        ["id=auth_password", "id"],
+        ["name=password", "name"],
+        ["css=#auth_password", "css:finder"],
+        ["xpath=//input[@id='auth_password']", "xpath:attributes"],
+        ["xpath=//div[@id='layout']/div/div/div[3]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test2018"
+    }, {
+      "id": "01d86c0e-a812-4949-b28a-1897cc188ebd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit_button_container > .pretty_button",
+      "targets": [
+        ["css=.submit_button_container > .pretty_button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='layout']/div/div/div[3]/div/form/div[3]/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "978064e7-0b4b-496d-b799-3a6d33a3d9a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg_7x49 .game_card_about ins",
+      "targets": [
+        ["css=.bg_7x49 .game_card_about ins", "css:finder"],
+        ["xpath=//div[@id='item_5150']/a/div/div/div[2]/div/div/ins", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div[2]/div/div/ins", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2005c5d-a679-48cf-badf-5870b32450b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,306)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1bbc1fe-83df-47d4-9512-a3526c21a41f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quickies:nth-child(8) .fastfill-rnd",
+      "targets": [
+        ["css=.quickies:nth-child(8) .fastfill-rnd", "css:finder"],
+        ["xpath=//span[@onclick='ga(\"send\", \"event\", \"serviceaction\", \"7x49\", \"magic-wand-autocomplete\");']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/div/div[7]/div/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28e7681-bde3-4e79-b9bf-ee9af0a00d74",
+      "comment": "",
+      "command": "click",
+      "target": "name=7x49_cart",
+      "targets": [
+        ["name=7x49_cart", "name"],
+        ["css=.type_primary:nth-child(3)", "css:finder"],
+        ["xpath=//button[@name='7x49_cart']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/div/div/div[2]/div[4]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'В корзину')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d99db2c-f8e0-49b0-bef2-29a4f8d287a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=layout",
+      "targets": [
+        ["id=layout", "id"],
+        ["css=#layout", "css:finder"],
+        ["xpath=//div[@id='layout']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d7b1aa-60ec-4d3b-a9eb-f2b4220600d2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=layout",
+      "targets": [
+        ["id=layout", "id"],
+        ["css=#layout", "css:finder"],
+        ["xpath=//div[@id='layout']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6edc4d30-975e-4461-ae20-892dcb721410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.medium a",
+      "targets": [
+        ["css=.medium a", "css:finder"],
+        ["xpath=//div[@id='layout']/div[6]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/private/cart?int=right')])[2]", "xpath:href"],
+        ["xpath=//div[2]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7ed8348-44aa-4b44-9f31-9c31b49e64f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["257b9016-9e91-41be-a65b-e28c3a075129"]
+  }],
+  "urls": ["https://www.stoloto.ru/"],
+  "plugins": []
+}
