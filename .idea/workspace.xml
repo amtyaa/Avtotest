@@ -14,6 +14,7 @@
   <component name="ProjectId" id="1Rulhs4TSlYc188QiS6ZUu7qTj9" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/env1/Scripts/python.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570524983954</updated>
-      <workItem from="1570524985931" duration="770000" />
+      <workItem from="1570524985931" duration="3927000" />
     </task>
     <servers />
   </component>
@@ -90,5 +91,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Avtotest$test_.coverage" NAME="test_ Coverage Results" MODIFIED="1570532562970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
